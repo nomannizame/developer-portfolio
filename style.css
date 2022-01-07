@@ -5,10 +5,13 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 .orange-color{
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 150px;
 }
@@ -21,6 +24,12 @@ section{
     background-repeat: no-repeat;
     background-position: right;
 }
+.third-section{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
 .first-class{
     width: 50%;
     padding-top: 5%;
@@ -42,6 +51,24 @@ section{
     padding-right: 8%;
 
 }
+.exprience-item{
+    box-shadow: 10px 10px 30px gray;
+    border-radius: 5px;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+}
+#fullstack{
+    border-left: 8px solid;
+    border-image: linear-gradient(salmon,tomato);
+    border-image-slice: 1;
+}
+#baby{
+    border-left: 8px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
 .link-button{
     text-decoration: none;
     background-color: orange;
@@ -50,4 +77,7 @@ section{
     background-image: linear-gradient(orange, tomato);
     color: white;
     font-weight: 700;
+}
+footer p{
+    text-align: center;
 }
